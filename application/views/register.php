@@ -1,4 +1,5 @@
 <?php 
+echo 1;
 echo form_open('register'); 
 $data=array(
 	'name' =>'username',

@@ -1,3 +1,15 @@
 <?php
-echo c4ca4238a0b923820dcc509a6f75849b==md5(1);
-?>
+class Test extends CI_Controller
+{
+	public function __construct()
+	{
+
+	}
+	public function index()
+	{
+		$data['title']='test';
+		$this->load->view("header",$data);
+		$this->load->view("test");
+		$this->load->view("fooder");
+	}
+}

@@ -1,5 +1,5 @@
 <?php
-class Register extends CI_Model
+class Registers extends CI_Model
 {
 	public function __construct()
 	{
